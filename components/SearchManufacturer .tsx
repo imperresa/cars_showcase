@@ -37,7 +37,6 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
             leaveFrom='opacity-100'
             leaveTo='opacity-0'
             afterLeave={() => setQuery('')}>
-            <ComboboxOption>
               {(filteredManufacturers.map((item) => (
                 <ComboboxOption key={item}
                   className={ `relative search-manufacturer__option hover:bg-primary-blue hover:text-white  text-black-100`
@@ -55,7 +54,6 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                         ) : null}
                       </>
                     )}
-                </ComboboxOption>
               )))}
             </ComboboxOption>
 
