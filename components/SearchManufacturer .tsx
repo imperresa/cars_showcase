@@ -54,8 +54,8 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                         ) : null}
                       </>
                     )}
-              )))}
-            </ComboboxOption>
+              </ComboboxOption>)))}
+            
 
           </Transition>
         </div>
